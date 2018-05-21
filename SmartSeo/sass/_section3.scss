@@ -1,0 +1,28 @@
+.section3{
+    padding: 100px 0px;
+    background-color: #f7f7f7;
+    border: 1px solid #eaeaea;
+    .item {
+        position: relative;
+        display: block;
+        padding-left: 80px;
+    .icon {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border: 1px solid #ddd;
+        width: 60px;
+        height: 60px;
+        font-size: 24px;
+        color: #25d25e;
+        display:inline-block;
+        text-align: center;
+        line-height: 58px;
+        transition: all 0.2s ease-in-out;
+        &:hover{
+            background-color: #25d25e;
+            color: white;
+        }
+    }
+}
+}
